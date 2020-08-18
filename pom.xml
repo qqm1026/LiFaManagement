@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.edu.guet</groupId>
-    <artifactId>SpringDemo</artifactId>
+    <artifactId>LiFaManagement</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
 
@@ -134,7 +134,7 @@
     </dependencies>
 
     <build>
-        <finalName>SpringDemo</finalName>
+        <finalName>LiFaManagement</finalName>
         <resources>
             <resource>
                 <directory>src/main/java</directory>

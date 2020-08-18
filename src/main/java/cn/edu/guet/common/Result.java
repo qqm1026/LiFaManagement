@@ -1,6 +1,7 @@
 package cn.edu.guet.common;
 
 import lombok.Data;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.io.Serializable;
 
