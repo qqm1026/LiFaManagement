@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringDemo:war" />
+      <artifact name="LiFaManagement:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd92bc77-c660-4938-8cd5-9c7d5e50f701" name="Default Changelist" comment="" />
+    <list default="true" id="fd92bc77-c660-4938-8cd5-9c7d5e50f701" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Transaction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Transaction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -47,13 +59,14 @@
   <component name="ProjectId" id="1g2Jzn6BnIqurVw0Y7mGTG3aIAc" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/edu/guet/common" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -81,14 +94,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Vue">
+    <configuration name="SpringDemo [clean]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringDemo [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="Vue" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.27" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringDemo/login.html" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/LiFaManagement/login.html" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringDemo:war">
+        <artifact name="LiFaManagement:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/SpringDemo" />
+            <option name="CONTEXT_PATH" value="/LiFaManagement" />
           </settings>
         </artifact>
       </deployment>
@@ -152,9 +215,21 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="SpringDemo:war" />
+          <artifact name="LiFaManagement:war" />
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.SpringDemo [clean]" />
+      <item itemvalue="Maven.SpringDemo [install]" />
+      <item itemvalue="Tomcat Server.Vue" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Maven.SpringDemo [install]" />
+        <item itemvalue="Maven.SpringDemo [clean]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
@@ -179,10 +254,38 @@
       <workItem from="1597639283514" duration="6335000" />
       <workItem from="1597715533090" duration="423000" />
       <workItem from="1597718258327" duration="7000" />
+      <workItem from="1597766577662" duration="2784000" />
+      <workItem from="1597769394134" duration="658000" />
+      <workItem from="1597799366174" duration="1255000" />
     </task>
+    <task id="LOCAL-00001" summary="导出项目，修改了applicationContext.xml和Transaction.xml">
+      <created>1597769929414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597769929414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="导出项目，修改了applicationContext.xml和Transaction.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="导出项目，修改了applicationContext.xml和Transaction.xml" />
   </component>
 </project>
