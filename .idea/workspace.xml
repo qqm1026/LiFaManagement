@@ -2,64 +2,14 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringDemo:war" />
+      <artifact name="LiFaManagement:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd92bc77-c660-4938-8cd5-9c7d5e50f701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/guet/common/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/guet/common/Result.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/Transaction.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/applicationContext.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/common/Result.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/dt/UserDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/filter/SimpleCORSFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/mapper/MenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/mapper/MenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/mapper/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/model/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/service/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/cn/edu/guet/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/configuration.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/commons-dbcp2-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/commons-pool2-2.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/jackson-annotations-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/jackson-core-2.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/jackson-databind-2.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/mybatis-3.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/mybatis-spring-2.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/ojdbc6-11.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-beans-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-context-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-core-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-expression-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-jdbc-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-test-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-tx-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-web-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/lib/spring-webmvc-4.3.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SpringDemo/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/guet/common/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/guet/common/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Transaction.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Transaction.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -305,8 +255,17 @@
       <workItem from="1597715533090" duration="423000" />
       <workItem from="1597718258327" duration="7000" />
       <workItem from="1597766577662" duration="2784000" />
-      <workItem from="1597769394134" duration="284000" />
+      <workItem from="1597769394134" duration="658000" />
+      <workItem from="1597799366174" duration="1255000" />
     </task>
+    <task id="LOCAL-00001" summary="导出项目，修改了applicationContext.xml和Transaction.xml">
+      <created>1597769929414</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597769929414</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,5 +283,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="导出项目，修改了applicationContext.xml和Transaction.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="导出项目，修改了applicationContext.xml和Transaction.xml" />
   </component>
 </project>
