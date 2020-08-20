@@ -2,7 +2,9 @@ package cn.edu.guet.controller;
 
 import cn.edu.guet.common.Result;
 import cn.edu.guet.dt.UserDto;
+import cn.edu.guet.model.Servicetype;
 import cn.edu.guet.model.User;
+import cn.edu.guet.service.ISerCom;
 import cn.edu.guet.service.IUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -19,13 +21,11 @@ Controller把普通的pojo标记为一个控制器（就能接收请求、返回
 @RequestMapping("user")
 public class UserController {
 
-
     /*
     自动装配（自动注入）：UserController依赖IUserService，那么Spring会自动装配
      */
     @Autowired
     IUserService userService;
-
     /**
      * gson（慢）
      * fastjson（漏洞多，速度慢）
@@ -34,6 +34,7 @@ public class UserController {
      * @param
      * @return user的信息（json格式），我们的login方法上使用了@ResponseBody注解后，会自动返回json数据
      */
+
     @RequestMapping(value = "login",method = {RequestMethod.POST})
     @ResponseBody
     public Result login(String username,String password){
@@ -43,9 +44,10 @@ public class UserController {
         if(user!=null){
             return Result.succ(user);
         }else{
-            return Result.fail("请求失败");
+            return Result.fail();
         }
     }
+
     @RequestMapping("saveUser")
     public void saveUser(String user){
 

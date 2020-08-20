@@ -17,5 +17,7 @@
 
 
     <bean id="userService" class="cn.edu.guet.service.impl.UserServiceImpl"></bean>
+    <bean id="serCom" class="cn.edu.guet.service.impl.SerComImpl"></bean>
+    <bean id="cardCom" class="cn.edu.guet.service.impl.CardComImpl"></bean>
 
 </beans>
